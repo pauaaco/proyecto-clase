@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navegar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(233, 190, 97);
+    padding: 60px;
+
+}
+
+.logo{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.Menu{
+    display: inline-block;
+    color: white;
+    padding: 6px;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+.Superior{
+    display: inline-block;
+    color: white;
+    padding: 6px;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+.Menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3px;
+    transition: .3s ease;
+}
+
+.Menu:hover{
+    color: black;
+}
+
+.Menu >a:hover{
+    color: black;
+}

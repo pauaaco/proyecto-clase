@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo para el contenedor principal (basicamente lo que separa el uno del otro)*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+/* Estilo para el formulario (sección izquierda) */
+.formulario {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Estilo para los grupos de formulario */
+.form-group {
+    margin-bottom: 10px;
+}
+
+/* Estilo para las etiquetas de los campos */
+.form-group label {
+    font-weight: bold;
+}
+
+/* Estilo para los campos de texto y selección en el formulario */
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group select {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estilo para el formulario submit "Registrar" */
+.form-group input[type="submit"] {
+    background-color: rgb(176, 226, 119);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* Estilo para la sección derecha (logotipo y botones) */
+.derecha {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para el botón "Registrar" */
+.btn-registrar {
+    background-color: rgb(176, 226, 119);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón "Cancelar" */
+.btn-cancelar {
+    background-color: rgb(218, 85, 85);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.Superior{
+    display: inline-block;
+    color: black;
+    padding: 6px;
+    font-weight: bold;
+    transition: .3s ease;
+}
